@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinball Architect | Custom 2D Pinball Game</title>
+    <meta name="description" content="A fully-featured, custom 2D Pinball game and Board Editor. Build, play, and share custom pinball boards directly on your device.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    
+    <nav class="navbar container">
+        <div class="logo">
+            Pinball Architect
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <div class="hero-content">
+            <div class="badge">Now Available</div>
+            <h1 class="hero-title">Build Your Own<br><span class="highlight">Pinball Universe</span></h1>
+            <p class="hero-subtitle">A fully-featured, 60fps retro pinball engine with an in-game board editor. Create, play, and share with the community directly from your pocket.</p>
+            
+            <div class="store-buttons">
+                <a href="https://apps.apple.com/app/pinball-architect/id6760352198" target="_blank" class="store-btn ios-btn" title="Download on the App Store">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+                </a>
+                <div class="coming-soon-badge" title="Android Version Coming Soon">
+                    <span>Android</span>
+                    <strong>Coming Soon</strong>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="phone-mockup floating-1">
+                <img src="assets/images/themes_3.png" alt="Pinball Architect Neon Theme">
+            </div>
+            <div class="phone-mockup floating-2">
+                <img src="assets/images/editor_1.png" alt="Pinball Architect Board Editor">
+            </div>
+        </div>
+    </header>
+
+    <section class="features container">
+        <div class="section-header">
+            <h2>Game Features</h2>
+            <p>Everything you need to create the perfect table.</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🛠️</div>
+                <h3>In-Game Board Editor</h3>
+                <p>Craft your own pinball tables directly on your device. Drag and drop walls, curved arcs, bumpers, slingshots, and targets onto the playfield.</p>
+                <img class="feature-img" src="assets/images/editor_3.png" alt="Editor">
+            </div>
+            
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🎨</div>
+                <h3>Dynamic Theming</h3>
+                <p>Swap between distinct visual rendering styles on the fly: clean flat design, hand-drawn crayon aesthetic, or dark-mode neon.</p>
+                <div class="themes-showcase">
+                    <img src="assets/images/themes_1.png" alt="Basic Theme">
+                    <img class="fade-theme" src="assets/images/themes_2.png" alt="Crayon Theme">
+                </div>
+            </div>
+
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🚀</div>
+                <h3>Community Sharing</h3>
+                <p>Export your custom boards as compressed strings. Share them with friends or import community boards with a single tap.</p>
+                <img class="feature-img" src="assets/images/community_1.png" alt="Community">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                Pinball Architect
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tarik Rahmatallah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
